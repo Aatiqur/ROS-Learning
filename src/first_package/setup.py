@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'first_node = first_package.first_node:main',
+            'first_publisher = first_package.first_node:main',
+            'first_subscriber = first_package.second_node:main',
         ],
     },
 )

@@ -8,7 +8,7 @@ from std_msgs.msg import String
 class first_node(Node):
     def __init__(self):
         super().__init__('first_publisher')
-        self.publisher = self.create_publisher(String, "pub", 10)
+        self.publisher = self.create_publisher(String, "hello", 10)
         self.timer = self.create_timer(0.5, self.timer_callback)
 
     def timer_callback(self):
