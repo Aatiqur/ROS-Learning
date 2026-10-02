@@ -26,7 +26,7 @@ setup(
         'console_scripts': [
             'first_publisher = first_package.first_node:main',
             'first_subscriber = first_package.second_node:main',
-            #hello
+            'cstm_msg = first_package.custommsg:main',
         ],
     },
 )

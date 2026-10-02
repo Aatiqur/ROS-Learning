@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000376] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.000447] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.010217] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.023535] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.024928] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/ROS-Learning/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/ROS-Learning/src/install/custom_interfaces'], 'cwd': '/home/vboxuser/ROS-Learning/src/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3339'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ROS-Learning/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2813,unix/Ubuntu:/tmp/.ICE-unix/2813'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d71b790_6bb3_4dc0_9518_740ba5d9c6b9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q0K4V3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ROS-Learning/src/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/vboxuser/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099271] (-) TimerEvent: {}
+[0.145867] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199995] (-) TimerEvent: {}
+[0.252093] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266599] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301030] (-) TimerEvent: {}
+[0.371627] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.389820] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.390221] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.391050] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.396147] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401121] (-) TimerEvent: {}
+[0.501962] (-) TimerEvent: {}
+[0.521241] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.542228] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.542715] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.543588] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.546751] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.603153] (-) TimerEvent: {}
+[0.704861] (-) TimerEvent: {}
+[0.778094] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.805163] (-) TimerEvent: {}
+[0.905706] (-) TimerEvent: {}
+[0.907479] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.911486] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.920597] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.992352] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.006293] (-) TimerEvent: {}
+[1.107033] (-) TimerEvent: {}
+[1.123071] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/first_package', 'build', '--build-base', '/home/vboxuser/ROS-Learning/src/build/first_package/build', 'install', '--record', '/home/vboxuser/ROS-Learning/src/build/first_package/install.log', '--install-scripts', '$base/lib/first_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ROS-Learning/src/first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'vboxuser', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '3339', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ROS-Learning/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu:@/tmp/.ICE-unix/2813,unix/Ubuntu:/tmp/.ICE-unix/2813', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2d71b790_6bb3_4dc0_9518_740ba5d9c6b9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q0K4V3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ROS-Learning/src/build/first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/vboxuser/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ROS-Learning/src/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.207254] (-) TimerEvent: {}
+[1.307862] (-) TimerEvent: {}
+[1.408362] (-) TimerEvent: {}
+[1.503069] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.508870] (-) TimerEvent: {}
+[1.599761] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.600744] (first_package) StdoutLine: {'line': b'creating ../build/first_package/first_package.egg-info\n'}
+[1.601232] (first_package) StdoutLine: {'line': b'writing ../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[1.601822] (first_package) StdoutLine: {'line': b'writing dependency_links to ../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[1.602232] (first_package) StdoutLine: {'line': b'writing entry points to ../build/first_package/first_package.egg-info/entry_points.txt\n'}
+[1.602639] (first_package) StdoutLine: {'line': b'writing requirements to ../build/first_package/first_package.egg-info/requires.txt\n'}
+[1.602904] (first_package) StdoutLine: {'line': b'writing top-level names to ../build/first_package/first_package.egg-info/top_level.txt\n'}
+[1.603570] (first_package) StdoutLine: {'line': b"writing manifest file '../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[1.608236] (first_package) StdoutLine: {'line': b"reading manifest file '../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[1.608529] (first_package) StdoutLine: {'line': b"writing manifest file '../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[1.608675] (first_package) StdoutLine: {'line': b'running build\n'}
+[1.608776] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[1.608874] (-) TimerEvent: {}
+[1.609200] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/build/first_package/build\n'}
+[1.609506] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/build/first_package/build/lib\n'}
+[1.609789] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package\n'}
+[1.610162] (first_package) StdoutLine: {'line': b'copying first_package/first_node.py -> /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package\n'}
+[1.610666] (first_package) StdoutLine: {'line': b'copying first_package/__init__.py -> /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package\n'}
+[1.613349] (first_package) StdoutLine: {'line': b'copying first_package/second_node.py -> /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package\n'}
+[1.613523] (first_package) StdoutLine: {'line': b'running install\n'}
+[1.613665] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.613771] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[1.613871] (first_package) StdoutLine: {'line': b'copying /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package/first_node.py -> /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[1.614011] (first_package) StdoutLine: {'line': b'copying /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package/__init__.py -> /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[1.614163] (first_package) StdoutLine: {'line': b'copying /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package/second_node.py -> /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[1.614948] (first_package) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package/first_node.py to first_node.cpython-310.pyc\n'}
+[1.615630] (first_package) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package/__init__.py to __init__.cpython-310.pyc\n'}
+[1.615951] (first_package) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package/second_node.py to second_node.cpython-310.pyc\n'}
+[1.616556] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[1.616819] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/install/first_package/share/ament_index\n'}
+[1.617039] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/install/first_package/share/ament_index/resource_index\n'}
+[1.618195] (first_package) StdoutLine: {'line': b'creating /home/vboxuser/ROS-Learning/src/install/first_package/share/ament_index/resource_index/packages\n'}
+[1.618350] (first_package) StdoutLine: {'line': b'copying resource/first_package -> /home/vboxuser/ROS-Learning/src/install/first_package/share/ament_index/resource_index/packages\n'}
+[1.618458] (first_package) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/ROS-Learning/src/install/first_package/share/first_package\n'}
+[1.618570] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.622410] (first_package) StdoutLine: {'line': b'Copying ../build/first_package/first_package.egg-info to /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package-0.0.0-py3.10.egg-info\n'}
+[1.623863] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.663834] (first_package) StdoutLine: {'line': b'Installing cstm_msg script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package\n'}
+[1.664308] (first_package) StdoutLine: {'line': b'Installing first_publisher script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package\n'}
+[1.664578] (first_package) StdoutLine: {'line': b'Installing first_subscriber script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package\n'}
+[1.665352] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ROS-Learning/src/build/first_package/install.log'\n"}
+[1.706078] (first_package) CommandEnded: {'returncode': 0}
+[1.709120] (-) TimerEvent: {}
+[1.723688] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[1.787008] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.809524] (-) TimerEvent: {}
+[1.910013] (-) TimerEvent: {}
+[2.013192] (-) TimerEvent: {}
+[2.114038] (-) TimerEvent: {}
+[2.151741] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.191988] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.193557] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.214850] (-) TimerEvent: {}
+[2.239971] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.240431] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.240688] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.240875] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.274392] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.315183] (-) TimerEvent: {}
+[2.414253] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.417243] (-) TimerEvent: {}
+[2.439642] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.441465] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.446037] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.495688] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.516550] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/ROS-Learning/src/build/custom_interfaces\n'}
+[2.517391] (-) TimerEvent: {}
+[2.530612] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.531576] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[2.531619] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ROS-Learning/src/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/ROS-Learning/src/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3339'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ROS-Learning/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2813,unix/Ubuntu:/tmp/.ICE-unix/2813'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d71b790_6bb3_4dc0_9518_740ba5d9c6b9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q0K4V3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ROS-Learning/src/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/vboxuser/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.582669] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.606069] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.612770] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.619038] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[2.619304] (-) TimerEvent: {}
+[2.725026] (-) TimerEvent: {}
+[2.825502] (-) TimerEvent: {}
+[2.926225] (-) TimerEvent: {}
+[3.026808] (-) TimerEvent: {}
+[3.127243] (-) TimerEvent: {}
+[3.227621] (-) TimerEvent: {}
+[3.328054] (-) TimerEvent: {}
+[3.414155] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.414368] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[3.414496] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[3.414627] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[3.414731] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[3.414832] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[3.417288] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[3.418951] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[3.428813] (-) TimerEvent: {}
+[3.493066] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[3.505457] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target custom_interfaces__rs\n'}
+[3.510270] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target custom_interfaces__cpp\n'}
+[3.525210] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.528290] (custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.528513] (-) TimerEvent: {}
+[3.540309] (custom_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.635009] (-) TimerEvent: {}
+[3.735812] (-) TimerEvent: {}
+[3.837633] (-) TimerEvent: {}
+[3.858886] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/complex__functions.c.o\x1b[0m\n'}
+[3.939538] (-) TimerEvent: {}
+[4.042222] (-) TimerEvent: {}
+[4.072703] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.142707] (-) TimerEvent: {}
+[4.191556] (custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/complex__type_support.cpp.o\x1b[0m\n'}
+[4.219301] (custom_interfaces) StdoutLine: {'line': b'[ 28%] Built target custom_interfaces__rosidl_generator_c\n'}
+[4.242778] (-) TimerEvent: {}
+[4.252180] (custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.287465] (custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/complex__type_support.cpp.o\x1b[0m\n'}
+[4.319487] (custom_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/complex__type_support.cpp.o\x1b[0m\n'}
+[4.344216] (-) TimerEvent: {}
+[4.444724] (-) TimerEvent: {}
+[4.548202] (-) TimerEvent: {}
+[4.648884] (-) TimerEvent: {}
+[4.736600] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.752050] (-) TimerEvent: {}
+[4.852707] (-) TimerEvent: {}
+[4.902111] (custom_interfaces) StdoutLine: {'line': b'[ 40%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[4.915690] (custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.953892] (-) TimerEvent: {}
+[4.993116] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/complex__type_support_c.cpp.o\x1b[0m\n'}
+[5.053050] (-) TimerEvent: {}
+[5.154137] (-) TimerEvent: {}
+[5.248596] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.254812] (-) TimerEvent: {}
+[5.355345] (-) TimerEvent: {}
+[5.365454] (custom_interfaces) StdoutLine: {'line': b'[ 50%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.393048] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.422056] (custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.455888] (-) TimerEvent: {}
+[5.556395] (-) TimerEvent: {}
+[5.656919] (-) TimerEvent: {}
+[5.729115] (custom_interfaces) StdoutLine: {'line': b'[ 56%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.757048] (-) TimerEvent: {}
+[5.779994] (custom_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/complex__type_support.c.o\x1b[0m\n'}
+[5.823629] (custom_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.858340] (-) TimerEvent: {}
+[5.868687] (custom_interfaces) StdoutLine: {'line': b'[ 62%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.922019] (custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.959613] (-) TimerEvent: {}
+[6.029746] (custom_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/complex__type_support.cpp.o\x1b[0m\n'}
+[6.035296] (custom_interfaces) StdoutLine: {'line': b'[ 68%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.060044] (-) TimerEvent: {}
+[6.068917] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.132308] (custom_interfaces) StdoutLine: {'line': b'[ 71%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[6.158408] (custom_interfaces) StdoutLine: {'line': b'[ 71%] Built target custom_interfaces\n'}
+[6.160427] (-) TimerEvent: {}
+[6.183580] (custom_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.260534] (-) TimerEvent: {}
+[6.362332] (-) TimerEvent: {}
+[6.463275] (-) TimerEvent: {}
+[6.563898] (-) TimerEvent: {}
+[6.665339] (-) TimerEvent: {}
+[6.765795] (-) TimerEvent: {}
+[6.785062] (custom_interfaces) StdoutLine: {'line': b'[ 75%] Built target custom_interfaces__py\n'}
+[6.814076] (custom_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_complex_s.c.o\x1b[0m\n'}
+[6.866450] (-) TimerEvent: {}
+[6.955795] (custom_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.967077] (-) TimerEvent: {}
+[7.010604] (custom_interfaces) StdoutLine: {'line': b'[ 81%] Built target custom_interfaces__rosidl_generator_py\n'}
+[7.039676] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.039992] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.040139] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.069059] (-) TimerEvent: {}
+[7.169610] (-) TimerEvent: {}
+[7.171120] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.176160] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.178103] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.225064] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.228456] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.231323] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.247531] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.248076] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[7.258775] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/ROS-Learning/src/build/custom_interfaces'], 'cwd': '/home/vboxuser/ROS-Learning/src/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3339'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ROS-Learning/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2813,unix/Ubuntu:/tmp/.ICE-unix/2813'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d71b790_6bb3_4dc0_9518_740ba5d9c6b9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q0K4V3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ROS-Learning/src/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/vboxuser/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.268440] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.268712] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[7.269001] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.269280] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.269537] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.269935] (-) TimerEvent: {}
+[7.270219] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/complex.h\n'}
+[7.270485] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.270601] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__type_support.h\n'}
+[7.270741] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__functions.h\n'}
+[7.270838] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__struct.h\n'}
+[7.271076] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__functions.c\n'}
+[7.271419] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[7.271766] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[7.272037] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[7.272272] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.272455] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.272751] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.273131] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.273410] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.273709] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__rosidl_typesupport_fastrtps_c.h\n'}
+[7.274056] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.274195] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.274436] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.274751] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.275050] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.275400] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.275682] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__rosidl_typesupport_introspection_c.h\n'}
+[7.275989] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__type_support.c\n'}
+[7.276214] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.276446] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.276874] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[7.277156] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.277314] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.277596] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.277886] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.278140] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/complex.hpp\n'}
+[7.278441] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.278796] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__struct.hpp\n'}
+[7.279077] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__traits.hpp\n'}
+[7.279385] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__builder.hpp\n'}
+[7.279658] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__type_support.hpp\n'}
+[7.279926] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.280236] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.280482] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.280668] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.281010] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[7.281264] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.281497] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.281669] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.281766] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.281859] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.281995] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.282181] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.282360] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/complex__type_support.cpp\n'}
+[7.282517] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.282615] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.282708] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.282801] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.282893] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[7.283101] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[7.283282] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.283457] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.283680] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.283959] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.284228] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.284437] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[7.284644] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[7.284882] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.285121] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.285333] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.285542] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.285742] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.286051] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[7.286290] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[7.286498] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_complex.py\n'}
+[7.286674] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_complex_s.c\n'}
+[7.286785] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[7.286928] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.333958] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[7.334270] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[7.334394] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[7.334532] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...\n"}
+[7.334709] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_complex.py'...\n"}
+[7.341503] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.341910] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.342201] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.342607] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.342871] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.343283] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.343506] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[7.343855] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ROS-Learning/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.344072] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/ament_index/resource_index/rust_packages/custom_interfaces\n'}
+[7.344465] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust\n'}
+[7.344717] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/src\n'}
+[7.345084] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/src/msg.rs\n'}
+[7.345258] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/src/lib.rs\n'}
+[7.345478] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/src/msg\n'}
+[7.345721] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/src/msg/rmw.rs\n'}
+[7.345930] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/Cargo.toml\n'}
+[7.346187] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/rust/build.rs\n'}
+[7.346476] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/msg/Complex.idl\n'}
+[7.346745] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/msg/Complex.msg\n'}
+[7.347036] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[7.347164] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[7.347414] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[7.347549] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.347714] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[7.347846] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[7.348000] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[7.348158] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[7.348338] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[7.348513] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[7.348618] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[7.348751] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[7.348850] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.348980] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.349115] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.349237] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.349483] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.349579] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.349689] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.349752] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.349815] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.349997] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.350146] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.350346] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.350465] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.350653] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.350742] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.350865] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.351071] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.351252] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.351445] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.351611] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.351785] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.351989] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.352279] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.352461] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.352631] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[7.352799] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[7.352931] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[7.353178] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ROS-Learning/src/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[7.357162] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.370607] (-) TimerEvent: {}
+[7.384645] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[7.385445] (-) EventReactorShutdown: {}

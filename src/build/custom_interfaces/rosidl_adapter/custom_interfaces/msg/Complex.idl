@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/Complex.msg
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module msg {
+    struct Complex {
+      int64 real;
+
+      int64 imaginary;
+    };
+  };
+};

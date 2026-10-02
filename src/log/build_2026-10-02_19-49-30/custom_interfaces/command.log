@@ -1,0 +1,6 @@
+Invoking command in '/home/vboxuser/ROS-Learning/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ROS-Learning/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ROS-Learning/src/install/custom_interfaces
+Invoked command in '/home/vboxuser/ROS-Learning/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/ROS-Learning/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ROS-Learning/src/install/custom_interfaces
+Invoking command in '/home/vboxuser/ROS-Learning/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ROS-Learning/src/build/custom_interfaces -- -j4 -l4
+Invoked command in '/home/vboxuser/ROS-Learning/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ROS-Learning/src/build/custom_interfaces -- -j4 -l4
+Invoking command in '/home/vboxuser/ROS-Learning/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ROS-Learning/src/build/custom_interfaces
+Invoked command in '/home/vboxuser/ROS-Learning/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ROS-Learning/src/build/custom_interfaces
