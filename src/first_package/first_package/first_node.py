@@ -5,7 +5,6 @@ from std_msgs.msg import String
 class first_node(Node):
     def __init__(self):
         super().__init__('first_publisher') #set the name of the node to "first_publisher"
-        self.subscription = self.create_subscription(String, "sub", 10, self.subscription_callback) #set the topic name here to "sub" and set as subscriber node
         self.publisher = self.create_publisher(String, "pub", 10) #set the topic name here to "pub" and set as pulsiher node
         self.timer = self.create_timer(0.5, self.timer_callback) #set the timer to 0.5 seconds
 
