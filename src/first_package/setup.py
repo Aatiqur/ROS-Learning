@@ -27,6 +27,8 @@ setup(
             'first_publisher = first_package.first_node:main',
             'first_subscriber = first_package.second_node:main',
             'cstm_msg = first_package.custommsg:main',
+            'cstm_srv_server = first_package.servernode:main',
+            'cstm_srv_client = first_package.clientnode:main',
         ],
     },
 )

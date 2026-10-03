@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/__init__.py" "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/_complex.py" "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/_complex_s.c" "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/srv/__init__.py" "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/srv/_cstm_srv.py" "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/srv/_cstm_srv_s.c" "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

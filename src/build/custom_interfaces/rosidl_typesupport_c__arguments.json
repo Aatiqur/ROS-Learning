@@ -3,7 +3,8 @@
   "output_dir": "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Complex.idl"
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Complex.idl",
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/CstmSrv.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
@@ -12,6 +13,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl"
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl",
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/CstmSrv.idl"
   ]
 }

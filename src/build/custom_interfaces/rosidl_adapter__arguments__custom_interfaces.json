@@ -1,6 +1,7 @@
 {
   "package_name": "custom_interfaces",
   "non_idl_tuples": [
-    "/home/vboxuser/ROS-Learning/src/custom_interfaces:msg/Complex.msg"
+    "/home/vboxuser/ROS-Learning/src/custom_interfaces:msg/Complex.msg",
+    "/home/vboxuser/ROS-Learning/src/custom_interfaces:srv/CstmSrv.srv"
   ]
 }

@@ -204,4 +204,7 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
  /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/complex__type_support.h \
  /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/complex__struct.h \
- /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/complex__functions.h
+ /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/complex__functions.h \
+ /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/cstm_srv__type_support.h \
+ /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/cstm_srv__struct.h \
+ /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/cstm_srv__functions.h

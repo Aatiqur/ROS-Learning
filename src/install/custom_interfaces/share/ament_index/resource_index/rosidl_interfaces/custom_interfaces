@@ -1,2 +1,6 @@
 msg/Complex.idl
 msg/Complex.msg
+srv/CstmSrv.idl
+srv/CstmSrv.srv
+srv/CstmSrv_Request.msg
+srv/CstmSrv_Response.msg

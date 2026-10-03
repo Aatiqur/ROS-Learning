@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/custom_interfaces/msg/detail/complex__struct.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/detail/complex__traits.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/detail/complex__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/cstm_srv.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/cstm_srv__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/cstm_srv__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/cstm_srv__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/cstm_srv__type_support.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

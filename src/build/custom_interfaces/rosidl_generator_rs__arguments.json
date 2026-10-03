@@ -3,10 +3,12 @@
   "output_dir": "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_rs/custom_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
-    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Complex.idl"
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Complex.idl",
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/CstmSrv.idl"
   ],
   "ros_interface_files": [
-    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl"
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl",
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/CstmSrv.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
@@ -22,7 +24,9 @@
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
     "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl",
-    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl"
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/CstmSrv.idl",
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Complex.idl",
+    "/home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/CstmSrv.idl"
   ],
   "package_version": "0.0.0"
 }

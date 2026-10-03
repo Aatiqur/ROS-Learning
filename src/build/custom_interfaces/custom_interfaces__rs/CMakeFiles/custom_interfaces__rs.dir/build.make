@@ -71,6 +71,8 @@ custom_interfaces__rs/CMakeFiles/custom_interfaces__rs: rosidl_generator_rs/cust
 custom_interfaces__rs/CMakeFiles/custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/Cargo.toml
 custom_interfaces__rs/CMakeFiles/custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/msg.rs
 custom_interfaces__rs/CMakeFiles/custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/msg/rmw.rs
+custom_interfaces__rs/CMakeFiles/custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/srv.rs
+custom_interfaces__rs/CMakeFiles/custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/srv/rmw.rs
 
 rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: /opt/ros/humble/lib/rosidl_generator_rs/rosidl_generator_rs
 rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py
@@ -85,7 +87,9 @@ rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: /opt/ros/humble/share/ros
 rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: rosidl_adapter/custom_interfaces/msg/Complex.idl
+rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: rosidl_adapter/custom_interfaces/srv/CstmSrv.idl
 rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: rosidl_adapter/custom_interfaces/msg/Complex.idl
+rosidl_generator_rs/custom_interfaces/rust/src/lib.rs: rosidl_adapter/custom_interfaces/srv/CstmSrv.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/ROS-Learning/src/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
 	cd /home/vboxuser/ROS-Learning/src/build/custom_interfaces/custom_interfaces__rs && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /home/vboxuser/ROS-Learning/src/build/custom_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -101,12 +105,20 @@ rosidl_generator_rs/custom_interfaces/rust/src/msg.rs: rosidl_generator_rs/custo
 rosidl_generator_rs/custom_interfaces/rust/src/msg/rmw.rs: rosidl_generator_rs/custom_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/custom_interfaces/rust/src/msg/rmw.rs
 
+rosidl_generator_rs/custom_interfaces/rust/src/srv.rs: rosidl_generator_rs/custom_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/custom_interfaces/rust/src/srv.rs
+
+rosidl_generator_rs/custom_interfaces/rust/src/srv/rmw.rs: rosidl_generator_rs/custom_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/custom_interfaces/rust/src/srv/rmw.rs
+
 custom_interfaces__rs: custom_interfaces__rs/CMakeFiles/custom_interfaces__rs
 custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/Cargo.toml
 custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/build.rs
 custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/lib.rs
 custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/msg.rs
 custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/msg/rmw.rs
+custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/srv.rs
+custom_interfaces__rs: rosidl_generator_rs/custom_interfaces/rust/src/srv/rmw.rs
 custom_interfaces__rs: custom_interfaces__rs/CMakeFiles/custom_interfaces__rs.dir/build.make
 .PHONY : custom_interfaces__rs
 
