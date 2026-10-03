@@ -29,6 +29,8 @@ setup(
             'cstm_msg = first_package.custommsg:main',
             'cstm_srv_server = first_package.servernode:main',
             'cstm_srv_client = first_package.clientnode:main',
+            'fibonacci_action_client = first_package.action_clientNode:main',
+            'fibonacci_action_server = first_package.action_serverNode:main',
         ],
     },
 )

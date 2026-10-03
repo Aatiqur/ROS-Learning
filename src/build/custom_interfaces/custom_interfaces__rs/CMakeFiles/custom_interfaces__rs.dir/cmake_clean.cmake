@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../rosidl_generator_rs/custom_interfaces/rust/Cargo.toml"
   "../rosidl_generator_rs/custom_interfaces/rust/build.rs"
+  "../rosidl_generator_rs/custom_interfaces/rust/src/action.rs"
+  "../rosidl_generator_rs/custom_interfaces/rust/src/action/rmw.rs"
   "../rosidl_generator_rs/custom_interfaces/rust/src/lib.rs"
   "../rosidl_generator_rs/custom_interfaces/rust/src/msg.rs"
   "../rosidl_generator_rs/custom_interfaces/rust/src/msg/rmw.rs"

@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_interfaces__cpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/fibonacci_action__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/fibonacci_action__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/fibonacci_action__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/fibonacci_action__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/fibonacci_action.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/complex.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/detail/complex__builder.hpp"
   "rosidl_generator_cpp/custom_interfaces/msg/detail/complex__struct.hpp"

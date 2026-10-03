@@ -2,6 +2,8 @@
 cstm_msg = first_package.custommsg:main
 cstm_srv_client = first_package.clientnode:main
 cstm_srv_server = first_package.servernode:main
+fibonacci_action_client = first_package.action_clientNode:main
+fibonacci_action_server = first_package.action_serverNode:main
 first_publisher = first_package.first_node:main
 first_subscriber = first_package.second_node:main
 

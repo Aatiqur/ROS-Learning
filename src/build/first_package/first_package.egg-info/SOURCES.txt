@@ -9,6 +9,8 @@ setup.py
 ../build/first_package/first_package.egg-info/top_level.txt
 ../build/first_package/first_package.egg-info/zip-safe
 first_package/__init__.py
+first_package/action_clientNode.py
+first_package/action_serverNode.py
 first_package/clientnode.py
 first_package/custommsg.py
 first_package/first_node.py

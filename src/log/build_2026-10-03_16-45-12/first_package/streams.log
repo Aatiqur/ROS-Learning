@@ -1,0 +1,33 @@
+[1.287s] Invoking command in '/home/vboxuser/ROS-Learning/src/first_package': PYTHONPATH=/home/vboxuser/ROS-Learning/src/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/first_package build --build-base /home/vboxuser/ROS-Learning/src/build/first_package/build install --record /home/vboxuser/ROS-Learning/src/build/first_package/install.log --install-scripts $base/lib/first_package --single-version-externally-managed install_data
+[1.780s] running egg_info
+[1.781s] writing ../build/first_package/first_package.egg-info/PKG-INFO
+[1.784s] writing dependency_links to ../build/first_package/first_package.egg-info/dependency_links.txt
+[1.785s] writing entry points to ../build/first_package/first_package.egg-info/entry_points.txt
+[1.785s] writing requirements to ../build/first_package/first_package.egg-info/requires.txt
+[1.785s] writing top-level names to ../build/first_package/first_package.egg-info/top_level.txt
+[1.789s] reading manifest file '../build/first_package/first_package.egg-info/SOURCES.txt'
+[1.790s] writing manifest file '../build/first_package/first_package.egg-info/SOURCES.txt'
+[1.790s] running build
+[1.790s] running build_py
+[1.790s] copying first_package/action_serverNode.py -> /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package
+[1.794s] copying first_package/action_clientNode.py -> /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package
+[1.795s] running install
+[1.795s] running install_lib
+[1.795s] copying /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package/action_serverNode.py -> /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package
+[1.795s] copying /home/vboxuser/ROS-Learning/src/build/first_package/build/lib/first_package/action_clientNode.py -> /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package
+[1.801s] byte-compiling /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package/action_serverNode.py to action_serverNode.cpython-310.pyc
+[1.802s] byte-compiling /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package/action_clientNode.py to action_clientNode.cpython-310.pyc
+[1.802s] running install_data
+[1.802s] running install_egg_info
+[1.807s] removing '/home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.808s] Copying ../build/first_package/first_package.egg-info to /home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages/first_package-0.0.0-py3.10.egg-info
+[1.810s] running install_scripts
+[1.850s] Installing cstm_msg script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.851s] Installing cstm_srv_client script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.851s] Installing cstm_srv_server script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.851s] Installing fibonacci_action_client script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.852s] Installing fibonacci_action_server script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.852s] Installing first_publisher script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.852s] Installing first_subscriber script to /home/vboxuser/ROS-Learning/src/install/first_package/lib/first_package
+[1.852s] writing list of installed files to '/home/vboxuser/ROS-Learning/src/build/first_package/install.log'
+[1.905s] Invoked command in '/home/vboxuser/ROS-Learning/src/first_package' returned '0': PYTHONPATH=/home/vboxuser/ROS-Learning/src/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ROS-Learning/src/install/first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/first_package build --build-base /home/vboxuser/ROS-Learning/src/build/first_package/build install --record /home/vboxuser/ROS-Learning/src/build/first_package/install.log --install-scripts $base/lib/first_package --single-version-externally-managed install_data
