@@ -12,6 +12,8 @@ class first_node(Node):
         msg = String()
         msg.data = "Hello ROS2" #the message to be published or sent
         self.publisher.publish(msg) #publishing the message to he topic
+        logged_msg = f"Published message: {msg.data}" #log the published message
+        self.get_logger().info(logged_msg) #log the message to the console
     
 
 
