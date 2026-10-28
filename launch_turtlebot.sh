@@ -17,7 +17,11 @@ export IGN_HOME=$HOME/.ignition
 
 # ---- Source ROS 2 and workspace ----
 source /opt/ros/humble/setup.bash
-source /home/vboxuser/ROS-Learning/install/setup.bash
+if [ -f /home/atiq/ROS-Learning/install/setup.bash ]; then
+    source /home/atiq/ROS-Learning/install/setup.bash
+elif [ -f /home/atiq/ROS-Learning/src/install/setup.bash ]; then
+    source /home/atiq/ROS-Learning/src/install/setup.bash
+fi
 
 # ---- Pick world (default: maze — lightest world for slow VMs) ----
 WORLD=${1:-maze}     # pass "warehouse" or "depot" as argument to override
@@ -33,3 +37,4 @@ echo "----------------------------------------------------"
 ros2 launch turtlebot4_ignition_bringup turtlebot4_ignition.launch.py \
     world:=$WORLD \
     model:=$MODEL
+

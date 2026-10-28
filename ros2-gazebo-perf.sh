@@ -17,4 +17,4 @@ export IGN_RENDERING_ENGINE=ogre2
 export MESA_GL_VERSION_OVERRIDE=3.3
 
 # Tell Ignition to use its config directory
-export IGN_HOME=/home/vboxuser/.ignition
+export IGN_HOME=${HOME}/.ignition
